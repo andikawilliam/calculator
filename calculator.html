@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Our own Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+  </head>
+  <body>
+    <h2>Calculator</h2>
+    <div id="calculator">
+      <div id="screen"></div>
+      <div id="num-container">
+        <button class="num-button" data-key="7"> 7 </button>
+        <button class="num-button" data-key="8"> 8 </button>
+        <button class="num-button" data-key="9"> 9 </button>
+        <button class="num-button" data-key="4"> 4 </button>
+        <button class="num-button" data-key="5"> 5 </button>
+        <button class="num-button" data-key="6"> 6 </button>
+        <button class="num-button" data-key="1"> 1 </button>
+        <button class="num-button" data-key="2"> 2 </button>
+        <button class="num-button" data-key="3"> 3 </button>
+        <button class="num-modify-button" data-key=""> +/- </button>
+        <button class="num-button" data-key="0"> 0 </button>
+        <button class="num-modify-button" data-key="190"> . </button>
+      </div>
+      <div id="op-container">
+        <button class="op-button operator" id="add" data-key="+"> + </button>
+        <button class="op-button operator" id="substract" data-key="-"> - </button>
+        <button class="op-button operator" id="multiply" data-key="*"> x </button>
+        <button class="op-button operator" id="divide" data-key="/"> : </button>
+        <button class="op-button" id="clear" data-key="c"> C </button>
+        <button class="op-button" id="delete" data-key="Backspace"> < </button>
+        <button class="op-button" id="equals" data-key="Enter"> = </button>
+      </div>
+    </div>
+    <div id="legend">
+      <h3>Keyboard keys</h3>
+      <ul>
+        <li>"0 - 9" are binded with their respective keys</li>
+        <li>"+" is binded with "+" key (using Shift + "=")</li>
+        <li>"-" is binded with "-" key</li>
+        <li>"x" is binded with "*" key</li>
+        <li>"=" is binded with Enter key</li>
+        <li>"c" is binded with "c" key</li>
+      </ul>
+    </div>
+    <script type="text/javascript" src="calculator.js"></script>
+  </body>
+</html>
